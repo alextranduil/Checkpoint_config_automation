@@ -118,8 +118,5 @@ run_button.grid(row=5, column=0, columnspan=2, pady=10)
 text_output = scrolledtext.ScrolledText(root, width=60, height=15, wrap=tk.WORD)
 text_output.grid(row=6, column=0, columnspan=2, padx=10, pady=5)
 
-print(Thread.__version__)
-print(tk.__version__)
-
 # Start the GUI
 root.mainloop()
