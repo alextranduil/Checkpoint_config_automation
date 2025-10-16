@@ -8,7 +8,7 @@ This script automates the process of restoring the router to a simple, default c
 
 ## Setup Instructions
 ### Quick Start
-To get started quickly, download the `CheckpointConfig.exe` file from the latest release and run it.
+To get started quickly, download the `CheckpointConfig.exe` file from the latest release - for Chrome or `Config_checkpoints_with_edge.zip` - for Edge and run it.
 
 ### Source Code
 Clone the repository:
@@ -30,6 +30,10 @@ To build the executable yourself using PyInstaller:
   Run the build command:
     
     pyinstaller --onefile main.py
+
+or
+
+    pyinstaller --onefile main_edge.py
 
 ## Checkpoints and their Recovery
 
