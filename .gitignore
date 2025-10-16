@@ -2,4 +2,5 @@
 build
 dist
 main.spec
+main_edge.spec
 __pycache__
